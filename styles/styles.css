@@ -1,0 +1,145 @@
+
+:root {
+    --preto: #0000;
+    --azul-escuro: #1E0E62;
+    --branco: #FFFFFF;
+    --font: 'DM Sans';
+    --roxo: #482BE7;
+    --cinza: #A1A1B0;
+    --verde-agua: #25DAC5;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--branco);
+    box-sizing: border-box;
+    font-family: var(--font);
+    color: var(--azul-escuro);
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    margin: 37px 115px 0 115px;
+    justify-content: center;
+    padding: 0;
+
+
+}
+
+.empresa_name {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+.botoes__header {
+    margin: 0px 300px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 16px;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
+.botoes__header_clients{
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
+.botoes__header_shop{
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
+.botoes__header_options {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
+
+.header__buttons {
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    gap: 28px;
+}
+
+.container_login {
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
+.container_inscrição {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--verde-agua);
+    border-radius: 100px;
+    padding: 9px 22px;
+
+}
+
+.startup_framework {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 93px;
+}
+
+.startup_framework_title {
+    font-weight: 700;
+    font-size: 72px;
+    height: 86px;
+    margin: 38px 0;
+}
+
+.startup_framework_text {
+    text-align: center;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--cinza);
+    width: 582px;
+}
+
+.container_buttons {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.green_button {
+    color: var(--branco);
+    text-decoration: none;
+    background: var(--verde-agua);
+    border-radius: 100px;
+    padding: 17px 41px;
+}
+
+.green_link{
+    margin: 17px 0;
+    text-decoration: none;
+    color: var(--verde-agua);
+}
+
+.madeby{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+

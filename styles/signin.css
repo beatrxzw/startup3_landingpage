@@ -1,0 +1,38 @@
+
+
+:root {
+    --preto: #0000;
+    --azul-escuro: #1E0E62;
+    --branco: #FFFFFF;
+    --font: 'DM Sans';
+    --roxo: #482BE7;
+    --cinza: #A1A1B0;
+    --verde-agua: #25DAC5;
+    
+}
+
+body {
+    background-image: url('/img/background-singin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: var(--font);
+    color: var(--azul-escuro);
+    font-size: 16px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.signin_page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin_box {
+    background: var(--branco);
+    border-radius: 10px;
+    width: 570px;
+    height: 570px;
+}

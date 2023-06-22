@@ -1,0 +1,70 @@
+:root {
+    --preto: #0000;
+    --azul-escuro: #1E0E62;
+    --branco: #FFFFFF;
+    --font: 'DM Sans';
+    --roxo: #482BE7;
+    --cinza: #A1A1B0;
+    --verde-agua: #25DAC5;
+}
+
+body{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.botoes__header_shop {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+;
+
+.container_shop {
+    display: flex;
+    align-items: center;
+}
+
+.container_shop_content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 67px;
+}
+
+.shop_title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+.shop_text {
+    width: 370px;
+    color: var(--cinza);
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 60px;
+}
+
+.shop_button {
+    background: var(--verde-agua);
+    border-radius: 100px;
+    padding: 12px 26px;
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 35px;
+}
+
+
+.shop_button_link {
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
+.ipad{
+    display: flex;
+height: 550px;
+}
