@@ -10,37 +10,165 @@
 </head>
 
 <body>
-    <header class="cabeçalho">
-        <p class="empresa_name">Startup 3</p>
-        <div class="botoes__header">
-            <a href="" class="botoes__header_options">Home</a>
-            <a href="/features.html" class="botoes__header_options">Features</a>
-            <a href="/clients.html" class="botoes__header_clients">Clients</a>
-            <a href="/shop.html" class="botoes__header_shop">Shop</a>
-            
-        </div>
+    <header class="cabeçalho" id="cabeçalho">
 
-        <div class="header__buttons">
-            <a href="/signin.html" class="container_login">Sign In</a>
-            <a href="" class="container_inscrição">Sign Up</a>
-        </div>
+            <p class="empresa_name">Startup 3</p>
+            <div class="botoes__header">
+                <a href="#" class="botoes__header_options">Home</a>
+                <a href="#features" class="botoes__header_options">Features</a>
+                <a href="#clients" class="botoes__header_options">Clients</a>
+                <a href="#shop" class="botoes__header_options">Shop</a>
+
+            </div>
+
+            <div class="header__buttons">
+                <a href="#startnow" class="container_inscrição">Start Now</a>
+            </div>
+        
     </header>
-    
-    <section class="home">
 
-    <div class="startup_framework">
-        <h1 class="startup_framework_title">Startup Framework</h1>
-        <p class="startup_framework_text">We made it so beutiful and simple. It combines landings, pages, blogs and
-            shop screens. It is definitely the tool you need in your collection! </p>
+    <section id="home" class="home">
 
-    </div>
+        <div class="startup_framework">
+            <h1 class="startup_framework_title">Startup Framework</h1>
+            <p class="startup_framework_text">We made it so beutiful and simple. It combines landings, pages, blogs and
+                shop screens. It is definitely the tool you need in your collection! </p>
 
-    <div class="container_buttons">
-        <a href="#" class="green_button">Purchase Now for $248</a>
-        <a href="" class="green_link">Learn More</a>
-    </div>
+        </div>
+
+        <div class="container_buttons">
+            <a href="#" class="green_button">Purchase Now for $248</a>
+            <a href="" class="green_link">Learn More</a>
+        </div>
     </section>
 
+
+    <section id="features" class="features">
+
+
+        <div class="container__features__texts_boxes">
+
+            <div class="container__features">
+                <h1 class="title_feature">What’s New in Startup?</h1>
+                <p class="text_feature">We have created a new product that
+                    will help designers, developers and companies create websites for their startups quickly and easily.
+                </p>
+            </div>
+
+            <div class="container_features__content">
+                <div class="container_box">
+                    <img class="imagem_box" src="/img/brush.svg" alt="">
+                    <h3 class="title_box">New Design</h3>
+                    <p class="text_box">Carefully crafted precise design, with harmonious typography
+                        and perfect padding around every component</p>
+                </div>
+
+                <div class="container_box">
+                    <img class="imagem_box" src="/img/code.svg" alt="">
+                    <h3 class="title_box">New Code</h3>
+                    <p class="text_box">Built with HTML, CSS and JS. Startup’s code is easy to
+                        under-stand and easy to change. No other frameworks needed.</p>
+                </div>
+
+                <div class="container_box">
+                    <img class="imagem_box" src="/img/toggle-on.svg" alt="">
+                    <h3 class="title_box">New Character</h3>
+                    <p class="text_box">Transform your ideas into reality and launch a
+                        beautiful site with minimal frustration.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="clients" class="testemunhas">
+        <h1 class="title_testemunhas">Testimonials</h1>
+
+
+        <div class="clientes">
+
+            <div class="container_clientes_first">
+
+                <div class="container_client">
+                    <img src="/img/jasmine-icon.svg" alt="" class="icon">
+                    <div class="container_textos">
+                        <p class="text">Extremely easy to use, helped us develop our Vote
+                            for George Washington micro-site extremely quickly! We will definitely use it again for
+                            other
+                            projects</p>
+                        <p class="client_name">Jasmine Andrews</p>
+                        <p class="company_name">Microsoft</p>
+                    </div>
+                </div>
+
+                <div class="container_client">
+                    <img src="/img/austin-icon.svg" alt="" class="icon">
+                    <div class="container_textos">
+                        <p class="text">Worth every penny, if you have basic HTML knowledge. It
+                            helped us get an exceptional landing page up and running in no time</p>
+                        <p class="client_name">Austin Campbell</p>
+                        <p class="company_name">Dropbox</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container_clientes_first">
+                <div class="container_client">
+                    <img src="/img/sophie-icon.svg" alt="" class="icon">
+                    <div class="container_textos">
+                        <p class="text">I’ve built my website with Startup just in one day, and it was
+                            ready-to-go. Code is clean and simple, easy to use by people with almost any level of
+                            programming skills.</p>
+                        <p class="client_name">Sophie Tatcher</p>
+                        <p class="company_name">WeTransfer</p>
+                    </div>
+                </div>
+                <div class="container_client">
+                    <img src="/img/audrey-icon.svg" alt="" class="icon">
+                    <div class="container_textos">
+                        <p class="text">As a business targeting high net worth individuals, we were
+                            looking for a slick, cool and mini-malistic design for our website</p>
+                        <p class="client_name">Audrey Turner</p>
+                        <p class="company_name">Designmodo</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section id="shop" class="container_shop">
+        <div class="container_shop_content">
+            <div class="container_shop_texts">
+                <h2 class="shop_title">Great things begin in a small way</h2>
+                <p class="shop_text">We haven’t forgotten about responsive layout.
+                    With Startup Framework, you can create a website with full mobile support.</p>
+                <div class="links_shop">
+                    <a href="" class="shop_button">Get Started</a>
+                    <a href="" class="shop_button_link">Learn More</a>
+                </div>
+            </div>
+            <img src="/img/ipadpro.svg" alt="" class="ipad">
+        </div>
+    </section>
+
+
+    <section id="startnow" class="container_startnow">
+        <div class="startnow_texts">
+            <h1 class="title_startnow">Get Started</h1>
+            <p class="text_startnow">Lookback is free to try for 14 days</p>
+        </div>
+
+        <div class="input_button">
+            <input type="email" class="contato_email" placeholder="Your email">
+            <a href="#startnow" class="container_startnow_inscrição">Sign Up</a>
+        </div>
+
+        <p class="startnow_message">or check out our pricing pians.</p>
+    </section>
 
     <section class="credits">
         <p class="madeby">code by bea!</p>

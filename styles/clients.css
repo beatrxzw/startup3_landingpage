@@ -8,18 +8,15 @@
     --verde-agua: #25DAC5;
 }
 
-.botoes__header_features {
-    font-weight: 400;
-    text-decoration: none;
-}
 
-.botoes__header_clients {
-    font-weight: 700;
-    text-decoration: none;
+.testemunhas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
 }
 
 .container__features {
-    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;

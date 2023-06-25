@@ -1,3 +1,12 @@
+@import url('/styles/features.css');
+@import url('/styles/clients.css');
+@import url('/styles/shop.css');
+@import url('/styles/startnow.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 :root {
     --preto: #0000;
@@ -20,16 +29,22 @@ body {
     font-family: var(--font);
     color: var(--azul-escuro);
     font-size: 16px;
-    overflow: hidden;
+
+}
+
+#cabeçalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--branco);
 }
 
 .cabeçalho {
     display: flex;
     align-items: center;
-    margin: 37px 115px 0 115px;
     justify-content: center;
-    padding: 0;
-
+    width: 100%;
+    padding: 45px 0 46px 0;
 
 }
 
@@ -49,16 +64,6 @@ body {
     text-decoration: none;
 }
 
-.botoes__header_clients{
-    text-decoration: none;
-    color: var(--azul-escuro);
-}
-
-.botoes__header_shop{
-    text-decoration: none;
-    color: var(--azul-escuro);
-}
-
 .botoes__header_options {
     display: flex;
     align-items: center;
@@ -71,12 +76,6 @@ body {
     font-weight: 500;
     align-items: center;
     display: flex;
-    gap: 28px;
-}
-
-.container_login {
-    text-decoration: none;
-    color: var(--azul-escuro);
 }
 
 .container_inscrição {
@@ -88,13 +87,15 @@ body {
 
 }
 
-.startup_framework {
+.home{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 93px;
+    margin-top: 188px;
 }
+
+
 
 .startup_framework_title {
     font-weight: 700;
@@ -141,5 +142,6 @@ body {
     margin-top: 80px;
     font-weight: 400;
     color: var(--cinza);
+    margin-bottom: 50px;
 }
 

@@ -8,28 +8,31 @@
     --verde-agua: #25DAC5;
 }
 
-.botoes__header_features {
-    font-weight: 700;
-    text-decoration: none;
+*{
+    margin: 0;
 }
 
-.botoes__header_clients{
-    font-weight: 400;
-    text-decoration: none;
+.features{
+    margin-top: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container__features__texts_boxes{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 115px;
+
 }
 
 .container__features {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 22px;
+    gap: 30px
 }
 
 .text_feature {
