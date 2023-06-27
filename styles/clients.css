@@ -16,53 +16,6 @@
     font-size: 22px;
 }
 
-.container__features {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 22px;
-}
-
-.text_feature {
-    color: var(--cinza);
-    width: 803px;
-    text-align: center;
-}
-
-.container_features__content {
-    margin-top: 64px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 100px;
-}
-
-.container_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #EBEAED;
-    border-radius: 10px;
-    padding: 60px 46px 84px 48px;
-}
-
-.imagem_box {
-    width: 40px;
-    height: 38px;
-}
-
-.title_box {
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.text_box {
-    text-align: center;
-    color: var(--cinza);
-    width: 276px;
-    font-weight: 400;
-}
 
 .title_testemunhas {
     margin-top: 60px;

@@ -52,24 +52,28 @@
 .container_box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border: 2px solid #EBEAED;
     border-radius: 10px;
-    padding: 60px 46px 84px 48px;
+    padding: 60px 46px 58.8px 48px;
 }
 
 .imagem_box{
+    display: flex;
+    margin-bottom: 25px;
     width: 40px;
     height: 38px;
 }
 
 .title_box{
+    display: flex;
+    margin-bottom: 22.2px;
     font-size: 22px;
     font-weight: 500;
 }
 
 .text_box{
+    display: flex;
     text-align: center;
     color: var(--cinza);
     width: 276px;
